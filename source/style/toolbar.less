@@ -1,0 +1,205 @@
+.app {
+    overflow: hidden;
+}
+.inherit {
+    height: 100%;
+    display: block;
+}
+.menu {
+    display: block;
+    margin: 0;
+    float: left;
+    height: 10%;
+}
+.pullout-menu {
+    display: none;
+}
+.fullwidth {
+    width: 100%;
+}
+.search-input {
+    width: 180px;
+}
+.right {
+    float: right;
+}
+.heading {
+    color: #fff;
+    vertical-align: top;
+    font-size: 130%;
+    font-weight: bold;
+}
+.nopadding {
+    padding: 0px;
+}
+.pullout {
+    position: absolute;
+    top: 0;
+    left: -100;
+    bottom: 0;
+    width: 300px;
+    background: #D8D8D8;
+}
+.pullout-shadow {
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    left: -20px;
+}
+.pullout-toolbar {
+    padding-top: 4px;
+    text-align: center;
+}
+.settings {
+    padding: 10px;
+}
+.settings > * {
+    padding: 10px;
+    min-height: 30px;
+    line-height: 30px;
+}
+.settings > * > * {
+    display: inline-block;
+}
+.labeled-item-icon {
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+.label-item-input {
+    float: right;
+}
+.ebctoolbar {
+    background: #3bbbf8;
+    vertical-align: middle;
+    border: none;
+    // height: 80px;
+}
+.toolbarDefaultPadding {
+    margin: 20px 0px;
+    text-align: center;
+    padding: 0px 16px;
+}
+.toolbarLeftSec {
+    float: left;
+}
+.moreIcon, .menuIcon, .logo {
+    width: 39px;
+    height: 25px !important;
+    display: inline-block;
+    cursor: pointer;
+}
+.closeIcon {
+    width: 45px;
+    height: 32px !important;
+}
+.moreIcon {
+    background: url("../../assets/more_icon.png") no-repeat;
+    background-size: contain;
+    margin-top: 8px !important;
+}
+.menuIcon {
+    background: url("../../assets/menu_icon.png") no-repeat;
+    background-size: contain;
+}
+.logo {
+    background: url("../../assets/cisco_logo.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 98px;
+    top: -4px;
+    padding: 12px;
+}
+.closeIcon {
+    background: url("../../assets/close_icon.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top: 24px;
+}
+.tappedStyleCircle {
+    border-radius: 50px;
+    padding: 2px;
+    background: #c4c4c4;
+}
+// styles for layers pop up
+.onyx-contextual-popup.vertical.below {
+    margin-top: 17px;
+}
+.onyx-contextual-popup-title {
+    display: none
+}
+.layerPopUpMenu .onyx-button {
+    background-color: transparent;
+    border-color: transparent;
+    height: 23px;
+    box-shadow: none;
+    padding: 0px;
+    padding-top: 10px;
+}
+.layerPopUpMenu .onyx-button.active, .layerPopUpMenu .onyx-button.pressed {
+    background: url("../../assets/more_icon.png") no-repeat;
+    background-size: contain;
+}
+.layerPopUpMenu .onyx-contextual-popup-scroller {
+    padding: 15px 0px;
+    min-width: 210px;
+}
+.layerContainer {
+    padding: 20px;
+    color: #000;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    border-bottom: 1px solid #c4c4c4;
+    cursor: pointer;
+}
+.layerContainer:last-child {
+    border-bottom: none;
+}
+.layerPopupContainer .enyo-touch-scroller {
+    max-height: 450px !important;
+}
+// styles will be applied for all the pop ups used global classes
+.onyx-contextual-popup.vertical.below.left::after {
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+}
+.onyx-contextual-popup.vertical.left::after {
+    margin-left: -27px;
+}
+.layerContainer {
+    position: relative;
+}
+.layersCheckbox {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.onyx-checkbox {
+    background: url("../../assets/checkbox.png") no-repeat;
+}
+.onyx-toolbar {
+    height: 80px;
+}
+.onyx-contextual-popup.vertical.left.corner {
+    margin-left: 10px;
+}
+.onyx-contextual-popup {
+    height: 450px;
+}
+.layersCancelBtn, .layersSuccessBtn {
+    display: inline-block;
+    padding: 6px;
+    text-align: center;
+    // border-radius: 8px;
+    width: 100px;
+    margin-right: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.layersCancelBtn {
+    background-color: #d4d4d4;
+}
+.layersSuccessBtn {
+    background-color: green;
+}

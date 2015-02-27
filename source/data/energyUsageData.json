@@ -1,0 +1,16 @@
+{
+    "intelligenceEnergyUsageData": {
+        "date": "23-JAN-2015",
+        "from-time": "8AM",
+        "to-time": "8PM",
+        "usageDataOld": [50, 48, 47, 46, 44, 42, 35, 30, 28, 22, 18, 10],
+        "usageData": [50,50]
+    },
+    "legacyEnergyUsageData": {
+        "date": "23-JAN-2015",
+        "from-time": "8AM",
+        "to-time": "8PM",
+        "usageDataOld": [50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50],
+        "usageData": [75, 25]
+    }
+}

@@ -1,0 +1,92 @@
+.pullout {
+    background: rgba(255, 255, 255, 0.9);
+    left: -300px;
+    position: absolute;
+    z-index: 999;
+    border-right: 1px solid silver;
+}
+.hidden {
+    left: -640px;
+}
+.menuItemsParentDiv {
+    position: relative;
+    font-size: 150%;
+    padding: 24px;
+    border-bottom: 1px solid silver;
+    cursor: pointer;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.menuItemsParentDiv:hover {
+    background: #3bbbf8;
+    color: #fff;
+}
+.menuItemsParentDiv:first-child:hover {
+    background: transparent;
+    color: #000;
+}
+.menuText {
+    display: inline-block;
+    margin-left: 50px;
+}
+.menuText:first-child {
+    margin-left: 0px;
+}
+.menuItem {
+    font-size: 120%;
+}
+.menuItemIcon {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 18px;
+}
+.mapViewIcon {
+    background: url("../../assets/map_view_icon.png") no-repeat;
+    background-size: contain;
+}
+.weatherViewIcon {
+    background: url("../../assets/weather_icon.png") no-repeat;
+    background-size: contain;
+}
+.parkingViewIcon {
+    background: url("../../assets/parking_violation_icon.png") no-repeat;
+    background-size: contain;
+}
+.reportsViewIcon {
+    background: url("../../assets/reports_icon.png") no-repeat;
+    background-size: contain;
+}
+.integratedViewIcon {
+    background: url("../../assets/integrated_view_icon.png") no-repeat;
+    background-size: contain;
+}
+.createOfferViewIcon {
+    background: url("../../assets/create_offer_icon.png") no-repeat;
+    background-size: contain;
+}
+.menuItemsParentDiv:nth-child(2):hover .integratedViewIcon {
+    background: url("../../assets/integrated_view_icon_active.png") no-repeat;
+    background-size: contain;
+}
+.menuItemsParentDiv:nth-child(3):hover .mapViewIcon {
+    background: url("../../assets/map_view_icon_active.png") no-repeat;
+    background-size: contain;
+}
+.menuItemsParentDiv:nth-child(4):hover .weatherViewIcon {
+    background: url("../../assets/weather_icon_active.png") no-repeat;
+    background-size: contain;
+}
+.menuItemsParentDiv:nth-child(5):hover .parkingViewIcon {
+    background: url("../../assets/parking_violation_icon_active.png") no-repeat;
+    background-size: contain;
+}
+.menuItemsParentDiv:nth-child(6):hover .reportsViewIcon {
+    background: url("../../assets/reports_icon_active.png") no-repeat;
+    background-size: contain;
+}
+.menuItemsParentDiv:nth-child(7):hover .createOfferViewIcon {
+    background: url("../../assets/create_offer_active_icon.png") no-repeat;
+    background-size: contain;
+}

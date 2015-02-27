@@ -1,0 +1,146 @@
+{
+    "intelligenceTrafficData":{
+        "date": "12-31-2015",
+        "place": "EBC Campus",
+        "trafficData":[314,126]
+    },
+    "intelligenceTrafficDataOld": {
+        "date": "23-JAN-2015",
+        "place": "EBC Campus",
+        "totalVehiclesPerHour": 500,
+        "trafficData": [
+            {
+                "sensorID": "1",
+                "sensorName": "Road 1",
+                "avgHourTraffic": 39
+            },
+            {
+                "sensorID": "2",
+                "sensorName": "Road 2",
+                "avgHourTraffic": 43
+            },
+            {
+                "sensorID": "3",
+                "sensorName": "Road 3",
+                "avgHourTraffic": 43
+            },
+            {
+                "sensorID": "4",
+                "sensorName": "Road 4",
+                "avgHourTraffic": 40
+            },
+            {
+                "sensorID": "5",
+                "sensorName": "Road 5",
+                "avgHourTraffic": 41
+            },
+            {
+                "sensorID": "6",
+                "sensorName": "Road 6",
+                "avgHourTraffic": 44
+            },
+            {
+                "sensorID": "7",
+                "sensorName": "Road 7",
+                "avgHourTraffic": 38
+            },
+            {
+                "sensorID": "8",
+                "sensorName": "Road 8",
+                "avgHourTraffic": 39
+            },
+            {
+                "sensorID": "9",
+                "sensorName": "Road 9",
+                "avgHourTraffic": 48
+            },
+            {
+                "sensorID": "10",
+                "sensorName": "Road 10",
+                "avgHourTraffic": 39
+            },
+            {
+                "sensorID": "11",
+                "sensorName": "Road 11",
+                "avgHourTraffic": 41
+            },
+            {
+                "sensorID": "12",
+                "sensorName": "Road 12",
+                "avgHourTraffic": 45
+            }
+        ]
+    },
+    "legacyTrafficData": {
+        "date": "12-30-2015",
+        "place": "Chicago city",
+        "trafficData":[314,0]
+    },
+    "legacyTrafficDataOld": {
+        "date": "23-JAN-2015",
+        "place": "Chicago city",
+        "totalVehiclesPerHour": 500,
+        "trafficData": [
+            {
+                "sensorID": "1",
+                "sensorName": "Road 1",
+                "avgHourTraffic": 20
+            },
+            {
+                "sensorID": "2",
+                "sensorName": "Road 2",
+                "avgHourTraffic": 62
+            },
+            {
+                "sensorID": "3",
+                "sensorName": "Road 3",
+                "avgHourTraffic": 33
+            },
+            {
+                "sensorID": "4",
+                "sensorName": "Road 4",
+                "avgHourTraffic": 50
+            },
+            {
+                "sensorID": "5",
+                "sensorName": "Road 5",
+                "avgHourTraffic": 21
+            },
+            {
+                "sensorID": "6",
+                "sensorName": "Road 6",
+                "avgHourTraffic": 64
+            },
+            {
+                "sensorID": "7",
+                "sensorName": "Road 7",
+                "avgHourTraffic": 10
+            },
+            {
+                "sensorID": "8",
+                "sensorName": "Road 8",
+                "avgHourTraffic": 87
+            },
+            {
+                "sensorID": "9",
+                "sensorName": "Road 9",
+                "avgHourTraffic": 28
+            },
+            {
+                "sensorID": "10",
+                "sensorName": "Road 10",
+                "avgHourTraffic": 19
+            },
+            {
+                "sensorID": "11",
+                "sensorName": "Road 11",
+                "avgHourTraffic": 93
+            },
+            {
+                "sensorID": "12",
+                "sensorName": "Road 12",
+                "avgHourTraffic": 13
+            }
+        ]
+    }
+}
